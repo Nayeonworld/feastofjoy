@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFFFFF">
+    <ImageButton
+        android:id="@+id/setting"
+        android:background="#FFFFFF"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/setup"
+        android:layout_gravity="right"
+        android:scaleType="fitXY"
+        />
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="180dp"
+        android:src="@drawable/logo_low"
+        android:layout_marginBottom="0dp"/>
+
+    <ImageButton
+        android:layout_width="130dp"
+        android:layout_height="45dp"
+        android:id="@+id/btn_play"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:src="@drawable/play_button"
+        android:textSize="30dp"
+        android:clickable="true"
+        android:onClick="play"
+        android:scaleType="fitXY"
+        android:background="#FFFFFF"/>
+    <ImageButton
+        android:layout_width="130dp"
+        android:layout_height="45dp"
+        android:id="@+id/btn_record"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+
+        android:clickable="true"
+        android:onClick="record"
+        android:src="@drawable/record_button"
+        android:scaleType="fitXY"
+        android:background="#FFFFFF"/>
+    <ImageButton
+        android:layout_width="130dp"
+        android:layout_height="45dp"
+        android:scaleType="fitXY"
+        android:layout_marginTop="15dp"
+        android:id="@+id/btn_help"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:textSize="30dp"
+        android:clickable="true"
+        android:onClick="help"
+        android:src="@drawable/help_button"
+        android:background="#FFFFFF"/>
+    <ImageView
+        android:layout_marginTop="20dp"
+
+        android:layout_width="330dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logonode_low"
+        android:scaleType="fitXY"
+        />
+
+</LinearLayout>
